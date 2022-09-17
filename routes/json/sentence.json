@@ -1,0 +1,89 @@
+{
+    "data": { 
+        "0" : {
+            "picture" : "",
+            "author_name": "Dalai Lama",
+            "job" : "Title of religious leader",
+            "gender" : "men", 
+            "_" : "The purpose of our lives is to be happy."
+        }, 
+        "1" : {
+            "picture" : "", 
+            "author_name" : "Stephen King", 
+            "job" : "American author",
+            "gender" : "men",
+            "_" : "Get busy living or get busy dying."
+        },
+        "2" : {
+            "picture" : "",
+            "author_name" : "John Lennon", 
+            "job" : "Singer-songwriter",
+            "gender" : "men",
+            "_" : "Life is what happens when you’re busy making other plans."
+        }, 
+        "3" : {
+            "picture" : "thomas_edison",
+            "author_name" : "Thomas A. Edison", 
+            "job" : "American inventor", 
+            "gender" : "men",
+            "_" : "Many of life’s failures are people who did not realize how close they were to success when they gave up."
+        }, 
+        "4" : {
+            "picture" : "",
+            "author_name" : "Mae West", 
+            "job" : "American film actress",
+            "gender" : "women", 
+            "_" : "You only live once, but if you do it right, once is enough."
+        },
+        "5" : {
+            "picture" : "will_smith",
+            "author_name" : "Will Smith", 
+            "job" : "American actor",
+            "gender": "men", 
+            "_" : "Money and success don’t change people; they merely amplify what is already there."
+        }, 
+        "6" : {
+            "picture" : "",
+            "author_name" : "Eleanor Roosevelt", 
+            "job" : "Former first lady of the United States",
+            "gender" : "women", 
+            "_" : "If life were predictable it would cease to be life, and be without flavor."
+        }, 
+        "7" : {
+            "picture" : "",
+            "author_name" : "Ernest Hemingway", 
+            "job" : "American novelist", 
+            "_" : "In order to write about life first you must live it."
+        }, 
+        "8" : {
+            "picture" : "socrates",
+            "author_name" : "Socrates", 
+            "gender": "men",
+            "job" : "Philosopher", 
+            "_" : "The unexamined life is not worth living."
+        },
+        "9" : {
+            "picture" : "",
+            "author_name" : "Oprah Winfrey", 
+            "job" : "American host", 
+            "gender" : "women",
+            "_" : "Turn your wounds into wisdom."
+        },
+        "10": {
+            "picture" : "",
+            "author_name" : "Leo Burnett",
+            "job" : "American advertising executive and the founder", 
+            "gender" : "men",
+            "_" : "Curiosity about life in all of its aspects, I think, is still the secret of great creative people."
+        },
+
+        "11" : { 
+            "picture" : "steve_harvey",
+            "author_name" : "Steve Harvey", 
+            "job" : "American television host", 
+            "gender": "men",
+            "_" : "Failure is a great teacher, and I think when you make mistakes and you recover from them and you treat them as valuable learning experiences, then you've got something to share."
+        
+        }
+    } 
+}
