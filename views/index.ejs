@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Random Sentence</title>
+</head>
+
+<body>
+  <div class="card" style="width: 18rem;">
+    <%# if not found author image replace not_found_person.jpg %>
+      <% if ( card_data.picture==="" ) { %>
+        <img src="images/not_found.jpg" class="card-img-top">
+        <% } else { %>
+          <img src="images/<%- card_data.picture %>.jpg" class="card-img-top">
+          <% } %>
+            <div class="card-body">
+              <h5 class="card-title">
+                <%- card_data.author_name %>
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <%- card_data.job %>
+              </h6>
+
+              <p class="card-text" id="_sentence">
+                <%- card_data._ %>
+              </p>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-primary" onclick="CopyToClipboard();">
+                  Copy
+                </button>
+                <button type="button" class="btn btn-primary" onclick="reload_page();">
+                  New
+                </button>
+              </div>
+            </div>
+  </div>
+  </div>
+  <script>
+    const CopyToClipboard = () => { 
+    var _sentence = document.getElementById("_sentence"); 
+    navigator.clipboard.writeText(_sentence.innerText);
+}
+
+const reload_page = () => { 
+    location.reload();
+}
+  </script>
+</body>
+
+</html>
